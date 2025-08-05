@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Github } from "lucide-react";
 import Link from "next/link";
 
 export default function LandingPage() {
@@ -10,7 +9,7 @@ export default function LandingPage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `url('/logo.svg')`,
+            backgroundImage: `url('./logo.svg')`,
             backgroundSize: "60px 60px",
             backgroundRepeat: "repeat",
             transform: "rotate(15deg) scale(1.2)",
@@ -51,10 +50,7 @@ export default function LandingPage() {
               variant="outline"
               className="bg-black hover:bg-neutral-800 text-white hover:text-white font-bold text-xl px-8 py-6 rounded-full shadow-2xl transform hover:scale-105 transition-all duration-200 border-2 border-black"
             >
-              <Link href="https://github.com/lumehq/coop/">
-                <Github className="mr-2 h-6 w-6" />
-                GitHub
-              </Link>
+              <Link href="https://github.com/lumehq/coop/">GitHub</Link>
             </Button>
           </div>
 
@@ -77,7 +73,7 @@ export default function LandingPage() {
             <div className="group cursor-pointer">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-black/10">
                 <img
-                  src="/screenshots/screenshot-1.png"
+                  src="./screenshots/screenshot-1.png"
                   alt="Coop chat interface with direct messages dialog"
                   className="w-full h-auto"
                 />
@@ -87,7 +83,7 @@ export default function LandingPage() {
             <div className="group cursor-pointer">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-black/10">
                 <img
-                  src="/screenshots/screenshot-2.png"
+                  src="./screenshots/screenshot-2.png"
                   alt="Coop dark mode interface with multiple conversations"
                   className="w-full h-auto"
                 />
@@ -97,7 +93,7 @@ export default function LandingPage() {
             <div className="group cursor-pointer">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-black/10">
                 <img
-                  src="/screenshots/screenshot-3.png"
+                  src="./screenshots/screenshot-3.png"
                   alt="Coop light theme with conversation list"
                   className="w-full h-auto"
                 />
@@ -107,7 +103,7 @@ export default function LandingPage() {
             <div className="group cursor-pointer">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-black/10">
                 <img
-                  src="/screenshots/screenshot-6.png"
+                  src="./screenshots/screenshot-6.png"
                   alt="Contact information and validation features"
                   className="w-full h-auto"
                 />
@@ -117,7 +113,7 @@ export default function LandingPage() {
             <div className="group cursor-pointer">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-black/10">
                 <img
-                  src="/screenshots/screenshot-7.png"
+                  src="./screenshots/screenshot-7.png"
                   alt="Coop branding and dark theme"
                   className="w-full h-auto"
                 />
@@ -127,7 +123,7 @@ export default function LandingPage() {
             <div className="group cursor-pointer">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-black/10">
                 <img
-                  src="/screenshots/screenshot-9.png"
+                  src="./screenshots/screenshot-9.png"
                   alt="Conversation subject change dialog"
                   className="w-full h-auto"
                 />
